@@ -1,0 +1,29 @@
+{
+  "//": "descripción y dependencias del programa",
+  "name": "servidorrest",
+  "description": "2018",
+  "license": "LGPL-3.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "empty"
+  },
+  "scripts": {
+    "servidor": "node mainServidorREST.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "jwt-simple": "*",
+    "mocha": "^5.2.0",
+    "request": "*"
+  },
+  "main": "ReglasREST.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "author": ""
+}

@@ -1,0 +1,26 @@
+{
+  "//": "npm run test",
+  "name": "logica",
+  "description": "2018",
+  "license": "LGPL-3.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "empty"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "sqlite3": "*",
+    "point-in-polygon": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "ConexionBD.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
+}
